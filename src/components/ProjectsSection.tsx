@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Github, X, Cloud, TrendingUp, MapPin, ShoppingCart, Notebook } from 'lucide-react';
+import { ExternalLink, Github, X, Cloud, TrendingUp, MapPin, ShoppingCart, GraduationCap ,Leaf} from 'lucide-react';
 
 const ProjectsSection: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
@@ -36,17 +36,30 @@ const ProjectsSection: React.FC = () => {
     },
     {
       id: 3,
-      title: "ProDerma",
-      subtitle: "Beauty Treatment Platform",
-      description: "A medically-informed aesthetics clinic site blending trust, expertise, and easy online bookings",
-      fullDescription: "",
-      icon: MapPin,
-      color: "from-purple-500 to-pink-500",
-      tech: ["Html", "CSS", "Javascript", "Node.js", "Express.js", "MongoDB", "SEO", "Responsive Design"," Web Development"],
-      features: ["ed by certified aesthetic physician Dr. Wayne, with evidence-backed, research-based treatments for health and beauty", "Clean layout with responsive design in HTML5, CSS3, and some JavaScript for interactivity.", "Multilingual support (EN/NOR), strong SEO, and trust-building components like doctor credentials and scientific basis.", ""],
-        liveLink: "https://your-live-demo-link.com",
-       codeLink: "https://github.com/yourusername/yourrepo",
-      image: "https://images.pexels.com/photos/7581085/pexels-photo-7581085.jpeg"
+      title: "Crop Disease Detector",
+  subtitle: "AI-powered agriculture diagnosis tool",
+  description: "A clean and responsive web interface that allows users to upload leaf images and instantly detect crop diseases using an AI model running on a Flask backend.",
+  fullDescription: "A modern and user-focused frontend built using HTML, CSS, and Flask templating. The interface includes an image upload section, a minimal UI for predictions, and clean typography tailored for agricultural use cases. It integrates smoothly with the backend API to display results in real time.",
+  icon: Leaf,
+  color: "from-green-500 to-emerald-500",
+  tech: [
+    "HTML5",
+    "CSS3",
+    "Responsive Design",
+    "Flask Templates",
+    "Frontend UI/UX"
+  ],
+  features: [
+    "Image upload interface",
+    "Responsive and mobile-friendly layout",
+    "Clean prediction results UI",
+    "Fast front-end rendering",
+    "Minimalistic and farmer-friendly design"
+  ],
+  liveLink: "https://www.youtube.com/watch?v=VPDhHsc12-I",
+  codeLink: "https://github.com/MansoobeZahra/Crop-Disease-Detector-Web-App",
+  image: "https://images.pexels.com/photos/5945686/pexels-photo-5945686.jpeg?auto=compress&cs=tinysrgb&w=400"
+
     },
     {
       id: 4,
@@ -78,18 +91,31 @@ const ProjectsSection: React.FC = () => {
     },
     {
       id: 6,
-      title: "To do List",
-      subtitle: "Notepad-inspired web application.",
-      description: "A notepad-inspired web application that lets users manage their daily tasks and habits in a fun, interactive way. I",
-      fullDescription: "A notepad-inspired web application that lets users manage their daily tasks and habits in a fun, interactive way. It includes category-based task tracking, theme switching, and beautiful charts to visualize progress — all stored in the browser with LocalStorage.This app is fully client-side and requires no backend — making it fast, lightweight, and easy to deploy on GitHub Pages.",
-      icon: Notebook,
-      color: "from-orange-500 to-red-500",
-      tech: ["HTML5", "CSS3", "JavaScript (ES6+)", "Chart.js", "LocalStorage API", "Netlify"],
-      features: ["Task Management  ", "Theme Switcher", "Persistent Storage ", "Mobile-Friendly", "Polished UI/UX ", "Charts & Analytics "],
-        liveLink: "https://friendly-palmier-9faad3.netlify.app/",
-       codeLink: "https://github.com/MansoobeZahra/To-do-List/tree/main",
-     image: "https://images.pexels.com/photos/1764433/pexels-photo-1764433.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop"
-    }
+    title: "Adaptive E-Learning System",
+  subtitle: "AI-personalized learning platform",
+  description: "A dynamic front-end interface for an AI-powered multi-agent tutoring system that adapts learning content to each student in real time.",
+  fullDescription: "The interface is built with modern web technologies and focuses on interactivity, smooth animations, and real-time content rendering. It includes lesson pages, difficulty sliders, live coding widgets, and feedback sections, all designed to work with the backend AI agents.",
+  icon: GraduationCap,
+  color: "from-blue-500 to-cyan-500",
+  tech: [
+    "React.js",
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "Responsive Design",
+    "UI/UX Design"
+  ],
+  features: [
+    "Adaptive lesson UI",
+    "Real-time difficulty adjustments",
+    "Interactive practice components",
+    "Motivational feedback widgets",
+    "Clean dashboard-style layout"
+  ],
+  liveLink: "",
+  codeLink: "https://github.com/MansoobeZahra/Multi-Agent-Adaptive_E-Learning_System",
+  image: "https://images.pexels.com/photos/3861967/pexels-photo-3861967.jpeg?auto=compress&cs=tinysrgb&w=400"
+}
   ];
 
   return (
