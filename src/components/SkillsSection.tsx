@@ -73,12 +73,40 @@ const SkillsSection: React.FC = () => {
     {
       client: (
         <span style={{ color: "#b3940c" }}>
+          May 2025 -BluCentric(Web Development Intern)
+        </span>
+      ),
+      event: (
+        <span style={{ color: "#fff" }}>
+        During her internship, Mansoob quickly proved herself to be a fast learner with excellent problem-solving abilities. She consistently delivered high-quality work with professionalism and enthusiasm.
+          M Usman , Operations Manager
+        </span>
+      ),
+      color: "#b3940c"
+    },
+    {
+      client: (
+        <span style={{ color: "#b3940c" }}>
+          June 2025 - Oct 2025 BluCentric(Web Development)
+        </span>
+      ),
+      event: (
+        <span style={{ color: "#fff" }}>
+        As a web developer, Mansoob demonstrated strong frontend skills, reliability, and exceptional attention to detail. She took ownership of tasks, met deadlines consistently, and added real value to our projects.
+          M Usman , Operations Manager
+        </span>
+      ),
+      color: "#b3940c"
+    },
+    {
+      client: (
+        <span style={{ color: "#b3940c" }}>
           May 2024 -DollarRiyalSale.com (Shopping site) 
         </span>
       ),
       event: (
         <span style={{ color: "#fff" }}>
-          Working with Mansoob was a game-changer for our e-commerce launch. The site is fast, mobile-friendly, and makes product browsing effortless for our customers. Our sales have already increased, and the admin panel is so easy to manage for us .
+          Working with Mansoob was a good for our e-commerce launch. The site is fast, mobile-friendly, and makes product browsing effortless for our customers. Our sales have already increased, and the admin panel is so easy to manage for us .
            Abdul Kareem, Store Owner
         </span>
       ),
@@ -93,39 +121,12 @@ const SkillsSection: React.FC = () => {
       event: (
         <span style={{ color: "#fff" }}>
          From the first meeting to final delivery, They understood our brand and created a site that perfectly explains our cleaning process. Customers now book directly online, and we’ve received some compliments on the clean, modern design.
-          <br />Kristian Johansen, Managing Director
+          <br />Wasif Ahmed, Managing Director
         </span>
       ),
       color: "#b3940c"
     },
-    {
-      client: (
-        <span style={{ color: "#b3940c" }}>
-          Jan 2025 – Data Cleaning + Feature Engineering
-        </span>
-      ),
-      event: (
-        <span style={{ color: "#fff" }}>
-        I’ve worked with many freelancers, but Mansoob’s ability to clean, impute, and engineer features from raw survey data was next level. Saved us hours of manual work and improved model accuracy drastically. <br /> Ritika M., Data Ops Manager (India)
-        </span>
-      ),
-      color: "#b3940c"
-    },
-    {
-      client: (
-        <span style={{ color: "#b3940c" }}>
-          March 2025 – ProDerma.no (Medical aesthetics clinic)
-        </span>
-      ),
-      event: (
-        <span style={{ color: "#fff" }}>
-    We needed a website that reflected our medical expertise and reassured our patients, and Mansoob delivered exactly that. The booking system works flawlessly, and the design builds trust while keeping things simple for our visitors.
-    <br />
-    Dr. Wayne, Founder & Lead Aesthetic Physician
-  </span>
-      ),
-      color: "#b3940c"
-    }
+    
   ];
   // Add more skills and timeline events as needed
   // Example skills and timeline data
